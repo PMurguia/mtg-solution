@@ -1,0 +1,51 @@
+﻿* {
+    box-sizing: border-box;
+}
+
+body {
+}
+
+#logo {
+    width: 25%;
+    float: left;
+}
+
+#title {
+    float:right;
+    
+    font-family: JaceBeleren;
+    text-align: center;
+    width: 70%;
+    padding-top: 20px;
+}
+
+.title {
+    font-size: 500%;
+}
+
+#list {
+    padding-top: 10px;
+    list-style: none;
+}
+
+.first {
+    clear: both;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.second{
+    clear:both;
+}
+.option {
+    list-style: none;
+    float:left;
+    width:50%;
+    text-align:center;
+}
+li{
+    
+    background-color: firebrick;
+    border-radius: 10px;
+    font-size:40px;
+}
