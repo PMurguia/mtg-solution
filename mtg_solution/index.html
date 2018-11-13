@@ -7,38 +7,54 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" />
+    <link href="767.css" media="(max-width: 767px)" rel="stylesheet" />
 </head>
 <body>
     <header id="container">
 
-        <div id="logo">
-            <a href="https://magic.wizards.com/"><img class="magicLogo" src="https://media.wizards.com/2018/images/magic/gatherer/magic_logo.png" /></a>
-        </div>
-        <div>
-            <h1 class="title">Página Principal</h1>
-        </div>
-        <div id="lista">
+        <div id="list">
             <ul>
-                <li><a class="link" href="search.html">Search</a></li>
-                <li><a class="link" href="about_us.html">About us...</a></li>
+                <li class="option"><a class="link" href="search.html">Deck Editor</a></li>
+                <li class="option"><a class="link" href="about_us.html">About us...</a></li>
             </ul>
+            <select>
+                <option value="search.html">Deck Editor</option>
+                <option value="about_us.html">About Us...</option>
+            </select>
         </div>
-        <hr class="first">
+        <hr class="first" />
+        <div id="cabecera">
+            <div id="logo">
+                <a href="https://magic.wizards.com/"><img class="magicLogo" src="https://media.wizards.com/2018/images/magic/gatherer/magic_logo.png" /></a>
+            </div>
+            <div id="title">
+                <h1 class="title">Home</h1>
+            </div>
+            <hr class="second" />
+        </div>
     </header>
 
-    <nav id="container">
+    <nav id="nav">
+        <h1>Introduction</h1>
+        <p>
+            Magic: The Gathering is both a trading card and digital collectible card game created by Richard Garfield.[1] Released in 1993 by Wizards of the Coast, Magic was the first trading card game created and it continues to thrive, with approximately twenty million players as of 2015,[2][3][4] and over twenty billion Magic cards produced in the period of 2008 to 2016 alone.[5]
+
+            Magic can be played by two or more players in various formats, which fall into two categories: constructed and limited. Limited formats involve players building a deck spontaneously out of a pool of random cards with a minimum deck size of 40 cards. In constructed, players create decks from cards they own, usually 60 cards with no more than 4 of any given card. Magic is played in person with printed cards, or using a deck of virtual cards through the Internet-based Magic: The Gathering Online, or on a smartphone or tablet, or through other programs.
+
+            Each game represents a battle between wizards known as "planeswalkers", who employ spells, artifacts, and creatures depicted on individual Magic cards to defeat their opponents. Although the original concept of the game drew heavily from the motifs of traditional fantasy role-playing games such as Dungeons & Dragons, the gameplay of Magic bears little similarity to pencil-and-paper adventure games, while having substantially more cards and more complex rules than many other card games.
+
+            New cards are released on a regular basis through expansion sets. An organized tournament system played at an international level and a worldwide community of professional Magic players has developed, as well as a substantial secondary market for Magic cards. Certain Magic cards can be valuable due to their rarity and utility in game play, with prices ranging from a few cents to thousands of dollars.
+        </p>
 
     </nav>
-
-    <aside id="aside">
-
-    </aside>
-
-    <footer>
-
+    <div id="cardImage"></div>
+    <hr class="third" />
+    <footer id="land">
+        <h1 id="footer">OmDevs&reg;</h1>
+        
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+    <script src="app.js" charset="iso-8859-1"></script>
 </body>
 </html>

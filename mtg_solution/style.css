@@ -2,50 +2,162 @@
     box-sizing: border-box;
 }
 
-body {
+input {
+    margin-bottom: 5px;
+}
+
+#cabecera {
+    /* Image url */
+    background-image: url(https://www.parcelhero.com/blog/wp-content/uploads/sites/3/2014/09/2000_Eternity-vessel-copy.jpg);
+    /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    background-position: center center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+    /* Se muestra un color de fondo mientras se está cargando la imagen
+
+de fondo o si hay problemas para cargarla */
+    background-color: black;
 }
 
 #logo {
-    width: 25%;
+    width: 100%;
     float: left;
 }
 
 #title {
-    float:right;
-    
+    float: right;
     font-family: JaceBeleren;
-    text-align: center;
-    width: 70%;
-    padding-top: 20px;
+    width: 100%;
+    padding-top: 15px;
+    color: white;
+    justify-content:center;
 }
+
+@media (max-width: 767px) {
+    #list ul {
+        display: none;
+    }
+
+    #list select {
+        display: inline-block;
+        width: 100%;
+    }
+}
+
 
 .title {
     font-size: 500%;
+    float: right;
+    text-align: center;
+    margin-right: 40px;
 }
 
 #list {
-    padding-top: 10px;
     list-style: none;
+    align-content: center;
 }
+
+div select {
+    display: none;
+}
+#add{
+    margin-left:10px;
+}
+
+.option {
+ 
+    list-style: none;
+    width: 48%;
+    float: left;
+    text-align: center;
+    background-color: firebrick;
+    border-radius: 10px;
+    font-size: 40px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:active {
+        text-decoration: none;
+    }
+
+    #add{
+        float:left;
+    }
 
 .first {
     clear: both;
-    margin-top:0px;
-    margin-bottom:0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-.second{
-    clear:both;
+.second {
+    clear: both;
 }
-.option {
-    list-style: none;
-    float:left;
-    width:50%;
-    text-align:center;
-}
-li{
-    
-    background-color: firebrick;
+
+.aside {
+    float: right;
+    background-color: cornflowerblue;
     border-radius: 10px;
-    font-size:40px;
+    border-color: blue;
+    width:30%;
+}
+
+#cardImage{
+    float:left;
+}
+.third{
+    clear:both;
+    padding-top:10px;
+  
+    
+}
+#footer{
+    text-align:center;
+    color:white;
+    font-family:JaceBeleren;
+    padding:50px;
+}
+p{
+    padding:30px;
+    float:left;
+}
+#nav{
+float:left;
+}
+#land {
+    /* Image url */
+    background-image: url(https://i.imgur.com/fypWobB.png);
+    /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+    background-position: center center;
+    /* Para que la imagen de fondo no se repita */
+    background-repeat: no-repeat;
+    /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+    background-attachment: fixed;
+    /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+    background-size: cover;
+    /* Se muestra un color de fondo mientras se está cargando la imagen
+
+de fondo o si hay problemas para cargarla */
+    background-color: black;
 }
